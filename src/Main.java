@@ -34,6 +34,15 @@ public class Main {
         char k = 56;
         float r = 4.7f;
 
+        //Упражнение 3
+        short ludPetr = 23;
+        short anSerg = 27;
+        short ekatAndr = 30;
+        int vsegolistov = 480;
+        int sum = ludPetr + anSerg + ekatAndr;
+        int listovUcheniku = vsegolistov / sum;
+        System.out.println("На каждого ученика рассчитано " + listovUcheniku + " листов бумаги");
+
 
     }
 }
