@@ -43,6 +43,14 @@ public class Main {
         int listovUcheniku = vsegolistov / sum;
         System.out.println("На каждого ученика рассчитано " + listovUcheniku + " листов бумаги");
 
+        //упражнение 4
+        double efficiency = 16 / 2;
+
+        System.out.println("За 20 минут машина произвела бутылок " + efficiency *20 + " штук");
+        System.out.println("За сутки машина произвела бутылок " + efficiency*60*24 + " штук");
+        System.out.println("За 3 дня машина произвела бутылок " + efficiency*60*24*3 + " штук");
+        System.out.println("За 1 месяц машина произвела бутылок " + efficiency*60*24*30 + " штук");
+
 
     }
 }
