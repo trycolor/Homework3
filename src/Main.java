@@ -82,6 +82,25 @@ System.out.println("Вес готового блюда = " + totalWeight + "кг
         double minDay = weight / maxDrop;
         System.out.println ("При минимальном сбросе потребуется " + maxDay + " дней");
         System.out.println ("При максимальном сбросе потребуется " + minDay + " дней");
+        //задание 8
+        int mashaSalary = 67760;
+        int denisSalary = 83690;
+        int krisSalary = 76230;
+        int yearSalary1 = mashaSalary * 12;
+        int yearSalary2 = denisSalary *12;
+        int yearSalary3 = krisSalary *12;
 
+        int newSalary1 = mashaSalary + mashaSalary / 100 * 10;
+        int newSalary2 = denisSalary + denisSalary /100 * 10;
+        int newSalary3 = krisSalary + krisSalary /100 *10;
+        int yearNewSalary1 =newSalary1 * 12;
+        int yearNewSalary2 =newSalary2 * 12;
+        int yearNewSalary3 =newSalary3 * 12;
+
+
+
+        System.out.println("Маша теперь получает " + newSalary1 + " Годовой доход вырос на " + (yearNewSalary1 - yearSalary1));
+        System.out.println("Денис теперь получает " + newSalary2 + " Годовой доход вырос на " + (yearNewSalary2 - yearSalary2));
+        System.out.println("Кристина теперь получает " + newSalary3 + " Годовой доход вырос на " + (yearNewSalary3 - yearSalary3));
     }
 }
