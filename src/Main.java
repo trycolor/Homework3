@@ -50,6 +50,14 @@ public class Main {
         System.out.println("За сутки машина произвела бутылок " + efficiency*60*24 + " штук");
         System.out.println("За 3 дня машина произвела бутылок " + efficiency*60*24*3 + " штук");
         System.out.println("За 1 месяц машина произвела бутылок " + efficiency*60*24*30 + " штук");
+        //задание 5
+short cans = 120;
+short whiteCans = 2;
+short brownCans = 4;
+short vsegoKlassov = (short) (120 / (whiteCans + brownCans));
+int totalWhiteCans = whiteCans * vsegoKlassov;
+int totalBrownCans = brownCans * vsegoKlassov;
+System.out.println("В школе, где " + vsegoKlassov +  " классов, нужно " + totalWhiteCans + " банок белой краски и "  + totalBrownCans + " банок коричневой краски");
 
 
     }
