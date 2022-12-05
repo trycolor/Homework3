@@ -59,6 +59,19 @@ int totalWhiteCans = whiteCans * vsegoKlassov;
 int totalBrownCans = brownCans * vsegoKlassov;
 System.out.println("В школе, где " + vsegoKlassov +  " классов, нужно " + totalWhiteCans + " банок белой краски и "  + totalBrownCans + " банок коричневой краски");
 
+        //задание 6
+         int banana = 5 ;
+         int milk = 200;
+         int icecream = 2;
+         int egg = 4;
 
+      double weightBanana = 5 * 80;
+         double weightMilk = milk / 100 * 105;
+         double weightIceCream = icecream * 100;
+        double weightEgg = egg * 4;
+
+         double totalWeight;
+        totalWeight = ((weightBanana + weightMilk + weightIceCream + weightEgg) * 0.001);
+System.out.println("Вес готового блюда = " + totalWeight + "кг");
     }
 }
