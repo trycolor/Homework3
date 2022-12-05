@@ -73,5 +73,15 @@ System.out.println("В школе, где " + vsegoKlassov +  " классов, 
          double totalWeight;
         totalWeight = ((weightBanana + weightMilk + weightIceCream + weightEgg) * 0.001);
 System.out.println("Вес готового блюда = " + totalWeight + "кг");
+
+        //Упражнение 7
+        int weight = 7;
+        double minDrop = 0.250;
+        double maxDrop = 0.500;
+        double maxDay = weight / minDrop;
+        double minDay = weight / maxDrop;
+        System.out.println ("При минимальном сбросе потребуется " + maxDay + " дней");
+        System.out.println ("При максимальном сбросе потребуется " + minDay + " дней");
+
     }
 }
